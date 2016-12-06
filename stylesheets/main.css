@@ -1,7 +1,7 @@
 
 
 header {
-  background-color: #96b2bc;
+  background-color: #9bb9a8;
   overflow: hidden;
 }
 
@@ -40,14 +40,14 @@ padding-right: 10px;
 }
 
 
-body {font: 18px/1.4 sans-serif; }
+body {font: 18px/1.4 sans-serif; font-family: Lato;}
 
 nav a { color: black; display: block; padding: 0.5em 1em; text-decoration: none; }
-nav a:hover { color: #96B2BC; }
+nav a:hover { color: #9bb9a8; }
 nav ul,
 nav ul li { list-style-type: none; padding: 0; margin: 0; }
 
-nav > ul { background: #EEE; text-align: center; }
+nav > ul { background: white; text-align: center; }
 nav > ul > li { display: inline-block; border-left: solid 1px #aaa; }
 nav > ul > li:first-child { border-left: none; }
 
@@ -78,7 +78,7 @@ nav > ul > li:first-child { border-left: none; }
  margin-left: 10px;
  text-transform: uppercase;
  color: black;
- background-color: #eee;
+ background-color: white;
 }
 
 .productseperator{
@@ -98,6 +98,7 @@ nav > ul > li:first-child { border-left: none; }
 
 }
 .book{
+  font-family: Lato, sans-serif;
   text-transform: uppercase;
   width: 80%;
   overflow: hidden;
@@ -117,7 +118,7 @@ margin: 25px  15px;
 
 
 .footer {
-background-color: #96b2bc;
+background-color: #9bb9a8;
 clear: both;
 text-align: center;
 overflow: hidden;
@@ -128,6 +129,7 @@ padding:22px;
   list-style: none;
   display: inline-block;
   text-transform: uppercase;
+  font-family: Lato, sans-serif;
 
 }
 
@@ -153,7 +155,7 @@ padding:22px;
 
 @media (min-width: 767px) and (max-width: 1024px){
 body{
-  background: url(https://images7.alphacoders.com/694/thumb-350-694702.jpg);
+  background: url(http://www.grassclothwallpaper.net/wp-content/uploads/2014/10/decorator-grasscloth-wallpaper-488-113-page-37-720x960.jpg);
   background-size: contain;}
 
   .book{
@@ -174,11 +176,13 @@ padding: 20px;
 }
 
 .flexwrap{
-  background-color: #eee;
+  background-color: white;
+  opacity: 2;
   justify-content:space-between;
   margin-left: 40px;
   padding: 20px;
   margin-right: 45px;
+  margin-bottom: 70px;
 
 }
 }
@@ -186,7 +190,7 @@ padding: 20px;
 
 @media (min-width: 1025px) and (max-width: 1600px){
   body{
-    background: url(https://images7.alphacoders.com/694/thumb-350-694702.jpg);
+    background: url(http://www.grassclothwallpaper.net/wp-content/uploads/2014/10/decorator-grasscloth-wallpaper-488-113-page-37-720x960.jpg);
     background-size: contain;
   }
 
@@ -208,11 +212,14 @@ padding: 20px;
 }
 
 .flexwrap{
-  background-color: #eee;
+  background-color: white;
+  opacity: 2;
   justify-content:space-between;
   margin-left: 40px;
   padding: 20px;
   margin-right: 45px;
+  margin-bottom: 70px;
 
 }
+
 }
