@@ -7,8 +7,8 @@ header {
 
 header #logo{
   float: left;
-  margin-right: 40px;
   margin-top: 15px;
+  margin-left: 15px;
 
 }
 
@@ -70,15 +70,47 @@ nav > ul > li:first-child { border-left: none; }
 
 
 .container-sort a{
-  float: left;
   text-decoration: none;
   border: 1px solid gray;
- padding: 2px 60px;
- margin-top: 20px;
- margin-left: 10px;
+  padding: 2px 60px;
  text-transform: uppercase;
  color: black;
  background-color: white;
+  display: block;
+}
+
+
+.container-sort > ul> li{
+  list-style-type: none;
+}
+
+
+.container-sort{
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.container-sort a:hover{
+  color: #9bb9ab;
+}
+
+.container-sort> ul{ background: white; text-align: left;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+.container-sort:hover .sub-menu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0s, 0s, 0.3s;
 }
 
 .productseperator{
