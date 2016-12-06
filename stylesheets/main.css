@@ -82,6 +82,7 @@ nav > ul > li:first-child { border-left: none; }
 
 .container-sort > ul> li{
   list-style-type: none;
+  background-color: #eee;
 }
 
 
@@ -96,7 +97,7 @@ nav > ul > li:first-child { border-left: none; }
   color: #9bb9ab;
 }
 
-.container-sort> ul{ background: white; text-align: left;
+.container-sort> ul{ background: #eee; text-align: left;
   font-size: 15px;
   padding: 0;
   margin: 0;
